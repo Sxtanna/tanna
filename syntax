@@ -1,0 +1,64 @@
+// reference type
+* -> dereference
+& -> pointer
+
+
+// basic types
+Nil // null
+All // anything
+
+Int // integer -> Long
+Dec // decimal -> Double
+Bit // boolean
+Txt // string
+Let // letter -> Character
+
+
+// control flow
+
+// if statement
+when (bit expression) {
+
+}
+// else if statement
+else (bit expression) {
+
+}
+// else statement
+else {
+
+}
+
+
+// switch statement
+case (value expression) {
+    expression {
+    }
+    expression {
+    }
+}
+
+
+// loop statement
+loop (bit expression) {
+    stop // break statement
+    cont // continue statement
+}
+
+loop (value rangeable) {
+
+}
+
+loop (value rangeable[range_min..range_max]) {
+
+}
+
+loop (value range_min..range_max) {
+
+}
+
+
+// tuples
+(Int, Int, Dec) = (1, 2, 3.0)
+// shorthand
+(Int::2, Dec) = (1, 2, 3.0)

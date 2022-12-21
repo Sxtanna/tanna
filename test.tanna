@@ -1,0 +1,137 @@
+// unconditional loop, will loop until it encounters a stop
+
+// variable i = 0
+// loop {
+//     sout i
+//
+//     when i++ == 10 {
+//         stop
+//     }
+// }
+//
+// variable i = 10
+//
+// loop {
+//     when i == 20 {
+//         stop
+//     } else {
+//         sout i++
+//     }
+// }
+
+
+// variable i = 10
+
+i++
+
+// loop {
+//     when i == 20 {
+//         stop
+//     } else {
+//         sout i++
+//     }
+// }
+
+// when i == 20 {
+//     sout "Hi"
+// }
+
+// when i == 10 {
+//     sout "Pass"
+// } else {
+//     sout "Fail"
+// }
+
+// sout i
+
+// loop {
+//     // sout "Hello!"
+//
+//     sout i
+//
+//     i++
+// }
+
+// variable b = true
+
+// // conditional loop, will loop until the property is false or it encounters a stop
+// loop (b) {
+//
+// }
+//
+// constant l = [0, 1, 2, 3]
+//
+// // rangeable loop, will loop over every element in 'l'
+// loop (range i in l) {
+//
+// }
+//
+// // rangeable loop, will loop over every element in 'l' from index 1 to 3
+// loop (range i in l[1..3]) {
+//
+// }
+//
+// // indexed loop, will loop through the range supplied from 0 to 9
+// loop (range i in 0..10) {
+//
+// }
+
+// multi-indexed loop, will loop through the range supplied from 0 to 9 with each property
+// loop (range x, y, z in 0..10) {
+//
+// }
+
+// constant a: Int = 10
+// sout a
+
+// constant tuple: Int::2 = (10, 20)
+// sout tuple
+
+
+// constant b = a + 2
+// sout b
+
+// function add(a, b: Int): Int {
+//     => a + b
+// }
+
+// function sub(a, b: Int): Int::3 => (a, b, a - b)
+
+
+// sout add(2, 4)
+
+
+// constant tuple2: Int::5 = (0, 1, 2, 3, 4)
+// sout tuple2
+// variable b: Int = 20 + 15
+// variable c = 26
+// constant bool = true
+
+// when (a <= 10) {
+//
+// }
+//
+//
+// trait Sized(variable size: Int)
+//
+// trait Array<T>::[Sized] {
+//     function get(index: Int): T
+//
+//     function set(index: Int, value: T)
+// }
+//
+//
+// class IntArray::[Array<Int>](constant size: Int) {
+//
+//     constant platform_array = platform::["[$size]int64"]
+//
+//
+//     function get(index: Int): Int {
+//         => platform_array[index]
+//     }
+//
+//     function set(index: Int, value: Int) {
+//         platform_array[index] = value
+//     }
+//
+// }

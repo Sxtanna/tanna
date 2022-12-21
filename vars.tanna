@@ -1,0 +1,9 @@
+
+variable i = 0
+loop {
+    sout i
+
+    when i++ == 10 {
+        stop
+    }
+}

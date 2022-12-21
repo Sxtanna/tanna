@@ -1,0 +1,26 @@
+
+variable _range = range(0..10)
+
+sout _range
+
+variable _iter = _range
+
+variable _iter_stepped = r by 1
+
+sout _iter_stepped
+
+loop z in i {
+    sout z
+}
+
+
+
+// loop i in range(0..10) {
+//     sout i
+// }
+
+// variable r = range(0..10)
+
+// loop i in range 0..10 {
+//     sout "Hi"
+// }
